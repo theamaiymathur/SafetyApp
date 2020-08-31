@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Issue" max_length="40" name="x_475685_safety_issue" sizeclass="10" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Assigned to" max_length="40" name="assigned_to" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="category" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="0" value="Choice 3"/>
+                <element inactive_on_update="false" label="Small" sequence="0" value="small"/>
+                <element inactive_on_update="false" label="Big" sequence="1" value="big"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Due Date" max_length="40" name="due_date" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Inspector" mandatory="true" max_length="32" name="inspector" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element attributes="encode_utf8=false" label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Opened By" max_length="32" name="opened_by" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Big" sequence="0" value="big"/>
+                <element inactive="true" inactive_on_update="true" label="Casual" sequence="0" value="casual"/>
+                <element inactive_on_update="false" label="Critical" sequence="0" value="critical"/>
+                <element inactive_on_update="false" label="Moderate" sequence="1" value="moderate"/>
+                <element inactive="true" inactive_on_update="true" label="Small" sequence="1" value="small"/>
+                <element inactive_on_update="false" label="Low" sequence="2" value="low"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="100" name="short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approval" value="approval"/>
+                <element inactive_on_update="false" label="Complete" value="complete"/>
+                <element inactive_on_update="false" label="New" value="new"/>
+                <element inactive_on_update="false" label="Work in Progress" value="work_in_progress"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Store name" max_length="40" name="store_name" type="string"/>
+        <index name="index">
+            <element name="opened_by"/>
+        </index>
+        <index name="index2">
+            <element name="location"/>
+        </index>
+        <index name="index3">
+            <element name="inspector"/>
+        </index>
+    </element>
+</database>

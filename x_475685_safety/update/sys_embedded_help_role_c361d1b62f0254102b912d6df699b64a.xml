@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_475685_safety.users" name="x_475685_safety.users">8f61d1b62f0254102b912d6df699b646</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-20 12:14:13</sys_created_on>
+        <sys_id>c361d1b62f0254102b912d6df699b64a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8f61d1b62f0254102b912d6df699b646</sys_name>
+        <sys_package display_value="Safety" source="x_475685_safety">8311dd3a2f4a14102b912d6df699b600</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">8311dd3a2f4a14102b912d6df699b600</sys_scope>
+        <sys_update_name>sys_embedded_help_role_c361d1b62f0254102b912d6df699b64a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-20 12:14:13</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

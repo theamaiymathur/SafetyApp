@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ldap_server_config">
+    <ldap_server_config action="DELETE">
+        <active>true</active>
+        <attributes/>
+        <authenticate>true</authenticate>
+        <connect_timeout>10</connect_timeout>
+        <dn>cn=read-only-admin,dc=example,dc=com</dn>
+        <dn_field/>
+        <listen_interval>5</listen_interval>
+        <listener>true</listener>
+        <map/>
+        <mid_server/>
+        <name>DemoLDAPIntegration</name>
+        <paging>true</paging>
+        <password>WNlCCj0Nr5IXB+Pz5JWlvA==</password>
+        <rdn>dc=example,dc=com</rdn>
+        <read_timeout>30</read_timeout>
+        <server_url>ldap:// ldap.forumsys.com</server_url>
+        <ssl>false</ssl>
+        <sys_class_name>ldap_server_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-20 21:59:01</sys_created_on>
+        <sys_id>1b159ff22f8654102b912d6df699b698</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>DemoLDAPIntegration</sys_name>
+        <sys_package display_value="Safety" source="x_475685_safety">8311dd3a2f4a14102b912d6df699b600</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">8311dd3a2f4a14102b912d6df699b600</sys_scope>
+        <sys_update_name>ldap_server_config_1b159ff22f8654102b912d6df699b698</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-20 22:01:22</sys_updated_on>
+        <system_id>app132165.ycg3.service-now.com:dev50021003</system_id>
+        <vendor>active_directory</vendor>
+    </ldap_server_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Safety">8311dd3a2f4a14102b912d6df699b600</application>
+        <file_path/>
+        <instance_id>11cba6f09bd8d7c47ac36b8af359ff6a</instance_id>
+        <instance_name>dev50021</instance_name>
+        <name>ldap_server_config_1b159ff22f8654102b912d6df699b698</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ldap_server_config"><ldap_server_config action="INSERT_OR_UPDATE"><active>true</active><attributes/><authenticate>true</authenticate><connect_timeout>10</connect_timeout><dn>cn=read-only-admin,dc=example,dc=com</dn><dn_field/><listen_interval>5</listen_interval><listener>true</listener><map/><mid_server/><name>DemoLDAPIntegration</name><paging>true</paging><password>WNlCCj0Nr5IXB+Pz5JWlvA==</password><rdn>dc=example,dc=com</rdn><read_timeout>30</read_timeout><server_url>ldap:// ldap.forumsys.com</server_url><ssl>false</ssl><sys_class_name>ldap_server_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-20 21:59:01</sys_created_on><sys_id>1b159ff22f8654102b912d6df699b698</sys_id><sys_mod_count>2</sys_mod_count><sys_name>DemoLDAPIntegration</sys_name><sys_package display_value="Safety" source="x_475685_safety">8311dd3a2f4a14102b912d6df699b600</sys_package><sys_policy/><sys_scope display_value="Safety">8311dd3a2f4a14102b912d6df699b600</sys_scope><sys_update_name>ldap_server_config_1b159ff22f8654102b912d6df699b698</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-20 22:01:22</sys_updated_on><system_id>app132165.ycg3.service-now.com:dev50021003</system_id><vendor>active_directory</vendor></ldap_server_config></record_update>]]></payload>
+        <payload_hash>1908114589</payload_hash>
+        <record_name>DemoLDAPIntegration</record_name>
+        <reverted_from/>
+        <source>8f119db62f0254102b912d6df699b654</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-20 22:01:22</sys_created_on>
+        <sys_id>bbc793b62f8654102b912d6df699b684</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1736e3ee4cc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-20 22:01:22</sys_updated_on>
+        <type>LDAP Server</type>
+        <update_guid>f3c793b6ee865410c9200cc8741d7d84</update_guid>
+        <update_guid_history>f3c793b6ee865410c9200cc8741d7d84:1908114589,33c793b636865410d66d51c6cb58ec83:279297329</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="DemoLDAPIntegration">c9199fb62f8654102b912d6df699b640</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-20 22:06:54</sys_created_on>
+        <sys_db_object display_value="" name="ldap_server_config">ldap_server_config</sys_db_object>
+        <sys_id>82f143801c5b46d8a730e351cf71d990</sys_id>
+        <sys_metadata>1b159ff22f8654102b912d6df699b698</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DemoLDAPIntegration</sys_name>
+        <sys_package display_value="Safety" source="x_475685_safety">8311dd3a2f4a14102b912d6df699b600</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Safety">8311dd3a2f4a14102b912d6df699b600</sys_scope>
+        <sys_scope_delete display_value="">079e531cb8e940f4aa1c36c74e842261</sys_scope_delete>
+        <sys_update_name>ldap_server_config_1b159ff22f8654102b912d6df699b698</sys_update_name>
+        <sys_update_version display_value="ldap_server_config_1b159ff22f8654102b912d6df699b698">bbc793b62f8654102b912d6df699b684</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-20 22:06:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

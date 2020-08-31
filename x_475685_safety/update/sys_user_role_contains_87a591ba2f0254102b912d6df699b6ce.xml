@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="safety" name="safety">cba591ba2f0254102b912d6df699b6b1</contains>
+        <role display_value="x_475685_safety.approver" name="x_475685_safety.approver">5b6191b62f0254102b912d6df699b6a6</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-20 12:32:47</sys_created_on>
+        <sys_id>87a591ba2f0254102b912d6df699b6ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>safety.x_475685_safety.approver</sys_name>
+        <sys_package display_value="Safety" source="x_475685_safety">8311dd3a2f4a14102b912d6df699b600</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">8311dd3a2f4a14102b912d6df699b600</sys_scope>
+        <sys_update_name>sys_user_role_contains_87a591ba2f0254102b912d6df699b6ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-20 12:32:47</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="c871a55f2ffad0502b912d6df699b622" sys_domain="global" table="u_cmdb_ci_jira001" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-28 09:28:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0071a55f2ffad0502b912d6df699b638</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="u_cmdb_ci_jira001" name="u_cmdb_ci_jira001" sys_domain="global" view="169d5a872300001009d5110d96bf6537">c871a55f2ffad0502b912d6df699b622</sys_ui_form>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_cmdb_ci_jira001" sys_domain="global" view="169d5a872300001009d5110d96bf6537">4471a55f2ffad0502b912d6df699b625</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-28 09:28:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-28 09:28:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c471a55f2ffad0502b912d6df699b65e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="u_cmdb_ci_jira001" name="u_cmdb_ci_jira001" sys_domain="global" view="169d5a872300001009d5110d96bf6537">c871a55f2ffad0502b912d6df699b622</sys_ui_form>
+            <sys_ui_section caption="More Attributes" display_value="More Attributes" name="u_cmdb_ci_jira001" sys_domain="global" view="169d5a872300001009d5110d96bf6537">8c71a55f2ffad0502b912d6df699b638</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-28 09:28:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>u_cmdb_ci_jira001</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-28 09:28:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c871a55f2ffad0502b912d6df699b622</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>u_cmdb_ci_jira001</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Safety" source="x_475685_safety">8311dd3a2f4a14102b912d6df699b600</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Safety">8311dd3a2f4a14102b912d6df699b600</sys_scope>
+            <sys_update_name>sys_ui_form_sections_c871a55f2ffad0502b912d6df699b622</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-28 09:28:15</sys_updated_on>
+            <sys_user/>
+            <view display_value="CMDB Workspace" name="cmdb_workspace">169d5a872300001009d5110d96bf6537</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

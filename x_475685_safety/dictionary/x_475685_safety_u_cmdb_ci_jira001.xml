@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmdb_ci_appl" label="JIRA001" max_length="40" name="x_475685_safety_u_cmdb_ci_jira001" sizeclass="0" type="collection"/>
+</database>
